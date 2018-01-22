@@ -1,0 +1,10 @@
+﻿*{margin:0;padding:0;}
+
+/* container */
+#container{width:1000px; height:40px; position:relative; overflow:hidden; margin:auto; font-family:Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;}
+#nav li{display:block; float:left; width:133px; height:36px; background:url(../images/transparent.png); line-height:36px; padding-right:2px; list-style:none;}
+#nav li a{color:#fff; text-decoration:none; display:block; position:relative; background:url(../images/black.png); width:123px; height:36px;padding-right:10px; font-size:14px; font-weight:bold; text-align:center;}
+#nav li a:hover,#container  li a.cur{background:#222;}
+/*#container li a span{display:block; position:absolute; left:10px; top:0; font-weight:normal; font-size:10px; -webkit-text-size-adjust:none; opacity:0.6; filter:alpha(opacity=60);}*/
+
+#buoy{position:absolute; width:133px; height:2px; background:#900; bottom:0px; left:-157px;}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li{margin:0; padding:0;}
+
+body{width:100%; height:600px; background:#F2F2F2;}
+
+#cimenu{width:100%; height:30px; background:#FFFFFF; position:relative; float:left;}/*导航位置*/
+.ci{width:500px; height:30px; margin-left:120px; float:left;}
+.cimenu-con{list-style:none; float:left; width:500px;}/*ul框文字*/
+.cimenu-con .position{float:left; width:60px; height:30px; line-height:30px; font-size:12px; color:#000000;}/*你的位置*/
+.cimenu-con .anliqiang{float:left; width:39px; height:30px; line-height:30px; font-size:12px; color:#000000;}/*安利墙*/
+.shouye{float:left; width:30px; height:30px; line-height:30px; font-size:12px; color:#000000; margin-left:6px;}/*首页*/
+.cimenu-con li{float:left; width:27px; height:30px; line-height:30px; font-size:12px; color:#000000; text-align:center;}
+.cimenu-con li a{color:#000000; text-decoration:none; display:block; position:relative;}
+.cimenu-con li a:hover{ color:000000; cursor:pointer; text-decoration:underline;}/*鼠标经过*/
+.fenge2{width:10px; height:30px; line-height:30px; display:block; font-size:12px; float:left; margin-left:9px; padding:0px;}/*箭头分隔*/
+
+#main{width:1055px; height:588px; background:#FFF; margin:0 auto; position:relative; top:100px; border:1px solid #FFF; box-shadow:2px 2px 7px 2px #ACACAC;}
+.logo{width:165px; height:48px; /*border:1px solid #000;*/ position:relative; margin:0 auto; top:30px;}
+.cititle{width:200px; height:30px; /*border:1px solid #000;*/ position:relative; margin:0 auto; top:58px; color:#000; font-size:14px; font-weight:bold; font-family:"微软雅黑"; text-align:center; letter-spacing:1px;}
+
+.regi-user{width:380px; height:40px; /*border:1px solid #000;*/ position:relative; top:70px; margin:0 auto;}
+.user-pic{width:28px; height:28px; background:url(../img/uesr.png); /*border:1px solid #000;*/ position:relative; top:5px; left:15px;}
+
+.regi-email{width:380px; height:40px; /*border:1px solid #000;*/ position:relative; top:90px; margin:0 auto;}
+.email-pic{width:28px; height:28px; background:url(../img/youxiang-regi.png) no-repeat; /*border:1px solid #000;*/ position:relative; top:10px; left:18px;}
+
+.regi-password{width:380px; height:40px; /*border:1px solid #000;*/ position:relative; top:110px; margin:0 auto;}
+.password-pic{width:28px; height:28px; background:url(../img/password.png) no-repeat; /*border:1px solid #000;*/ position:relative; top:10px; left:18px;}
+
+.regi-password-again{width:380px; height:40px; /*border:1px solid #000;*/ position:relative; top:130px; margin:0 auto;}
+
+.register{width:374px; height:59px;  border:1px solid #E2E2E2; position:relative; margin:0 auto; background:url(../img/register.png); top:180px;}
+.register:hover{cursor:pointer; background:url(../img/register-hover.png);}
+
+.agree{color:#000; width:150px; height:20px; /*border:1px solid #000;*/ position:relative; color:#000; font-size:16px; font-family:"微软雅黑"; top:180px; text-decoration:none; top:190px; left:340px; letter-spacing:1px;}
+
+.now-login{width:155px; height:20px; /*border:1px solid #000;*/ position:relative; top:80px; text-decoration:none; top:170px; left:548px;}
+.now-login p{color:#000; letter-spacing:1px; font-size:16px; font-family:"微软雅黑"; position:relative; left:110px; bottom:37px;}
+.now-login p:hover{text-decoration:underline; cursor:pointer;}
+a{text-decoration:none;}
+
+
+#footer{width:100%; height:240px; background:#666; position:absolute; top:790px;}/*底部*/
+.footer-right{width:500px; height:140px; position:relative; /*border:1px solid #F00*/; left:1000px; top:10px;}/*右边*/
+.contact{width:100px; height:30px; /*border:1px solid #06C;*/ position:absolute; left:20px; top:30px; color:#999; font-size:14px; font-family:"微软雅黑";}
+.tubiao{width:400px; height:50px; position:relative; left:20px; top:55px; /*border:1px solid #9C6;*/}
+.face{width:41px; height:41px; /*border:1px solid #F09;*/ background:url(../img/facebook.png); position:relative;}/*facebook*/
+.face:hover{cursor:pointer; background:url(../img/facebook-hover.png);}
+.face span{display:none; text-decoration:none;}
+.face:hover span{width:58px; height:20px; position:absolute; display:block; color:#000; top:40px; left:10px; /*border:1px solid #690;*/ background:#FFF; font-family:Arial; font-size:12px; line-height:20px; text-align:center;}
+
+.weixin{width:41px; height:41px; background:url(../img/weixin.png); position:relative; left:53px; bottom:39px;}/*微信*/
+.weixin:hover{cursor:pointer; background:url(../img/weixin-hover.png);}
+.weixin span{position:relative; bottom:44px;}
+.weixin:hover span{width:110px; height:104px; position:absolute; background:url(../img/tap-weixin.png);}
+
+.QQ{width:41px; height:41px; /*border:1px solid #F09;*/ background:url(../img/QQ.png); position:relative; left:105px; bottom:81px;}/*QQ*/
+.QQ:hover{cursor:pointer; background:url(../img/QQ-hover.png);}
+.QQ span{display:none; text-decoration:none;}
+.QQ p{font-family:Arial; font-size:12px; height:10px; margin-bottom:8px;}
+.QQ:hover span{width:70px; height:40px; position:absolute; display:block; color:#000; top:40px; left:10px; /*border:1px solid #690;*/ background:#FFF; font-family:Arial; font-size:12px; text-align:center;}
+
+.zhihu{width:41px; height:41px; /*border:1px solid #F09;*/ background:url(../img/zhihu.png); position:relative; left:160px; bottom:121px;}/*知乎*/
+.zhihu:hover{cursor:pointer; background:url(../img/zhihu-hover.png);}
+.zhihu span{display:none; text-decoration:none;}
+.zhihu:hover span{width:58px; height:20px; position:absolute; display:block; color:#000; top:40px; left:10px; /*border:1px solid #690;*/ background:#FFF; font-family:"微软雅黑"; font-size:12px; line-height:20px; text-align:center;}
+
+.weibo{width:41px; height:41px; /*border:1px solid #F09;*/ background:url(../img/weibo.png); position:relative; left:215px; bottom:161px;}/*微博*/
+.weibo:hover{cursor:pointer; background:url(../img/weibo-hover.png);}
+.weibo span{display:none; text-decoration:none;}
+.weibo:hover span{width:40px; height:20px; position:absolute; display:block; color:#000; top:40px; left:10px; /*border:1px solid #690;*/ background:#FFF; font-family:"微软雅黑"; font-size:12px; line-height:20px; text-align:center;}
+
+.youxiang{width:41px; height:41px; /*border:1px solid #F09;*/ background:url(../img/youxiang.png); position:relative; left:270px; bottom:201px;}/*邮箱*/
+.youxiang:hover{cursor:pointer; background:url(../img/youxiang-hover.png);}
+.youxiang span{display:none; text-decoration:none;}
+.youxiang:hover span{width:150px; height:40px; position:absolute; display:block; color:#000; top:20px; left:40px; /*border:1px solid #690;*/ background:#FFF; font-family:"微软雅黑"; font-size:12px; line-height:20px;}
+.youxiang p{font-family:"微软雅黑"; font-size:12px; height:10px; margin-bottom:8px;}
+.youxiang p:hover{text-decoration:underline;}
+
+/************************************右边块结束*******************************************************/
+
+
+.footer-left{width:700px; height:240px; /*border:1px solid #069;*/ position:relative; float:left; left:230px;}/*左块内容*/
+.fleft-top{width:470px; height:60px; position:relative; top:28px; /*border:1px solid #993;*/}
+.logo-bot-top{width:135px; height:48px; line-height:48px; float:left; position:relative; bottom:10px; left:20px;}
+.language{width:70px; height:20px; float:left; position:relative; left:25px; /*border:1px solid #939;*/ top:25px;}/*语言*/
+.language span{display:none; text-decoration:none;}
+.language .lan{width:70px; height:30px; /*border:1px solid #C39;*/ text-align:center; line-height:20px; font-family:"微软雅黑"; font-size:14px; color:#999;}
+.language:hover span{width:70px; height:60px; position:absolute; display:block; color:#000; bottom:25px; /*border:1px solid #690;*/ color:#999; background:#FFF; font-family:"微软雅黑"; font-size:14px; line-height:20px;}
+
+.kaifa{width:100px; height:20px; float:left; position:relative; left:36px;/* border:1px solid #939;*/ top:14px;}/*开发者中心*/
+.kaifa p{color:#999; font-family:"微软雅黑"; font-size:14px;}
+.kaifa p:hover{text-decoration:underline;}
+
+.guanyu{width:100px; height:20px; float:left; position:relative; left:26px;/* border:1px solid #939;*/ top:14px;}/*关于我们*/
+.guanyu p{color:#999; font-family:"微软雅黑"; font-size:14px;}
+.guanyu p:hover{text-decoration:underline;}
+
+.DIS{width:300px; height:30px; position:relative; /*border:1px solid #96C;*/ font-family:Arial; font-size:18px; font-weight:bold; color:#999; top:20px; left:20px;}
+
+.PS{width:700px; height:100px; position:relative; /*border:1px solid #96C;*/ font-family:Arial; font-size:14px; color:#999; top:30px; left:20px;}
+.PS p{margin-bottom:5px;}

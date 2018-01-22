@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,table{margin:0; padding:0;}
+
+
+#main{width:100%; height:38px; /*background:#F00;*/ margin:0px; padding:0px;}
+/*#menu li a:hover {white-space:nowrap; color:#fff; cursor:pointer;}*/
+#main .menu{padding:0; margin:0; list-style:none; width:100%; height:38px; position:absolute; background:url(../img/dhjietu2.PNG) no-repeat; background-size:cover; float:left; position:relative;}/*导航*/
+.menu .conleft{width:98px; height:38px; line-height:38px; margin-left:120px; float:left; margin-top:5px;}/*logo*/
+
+/*登陆注册*/
+.menu .conterner .conright{width:200px; height:38px; line-height:38px; margin-right:10px; float:right;}
+#nav2 li{display:block; width:30px; height:38px; line-height:36px; float:right; text-align:center; font-weight:bold; font-size:14px; padding-right:5px; list-style:none; color:#FFF;}
+#nav2 li a{color:#fff; text-decoration:none; display:block; position:relative;}
+#nav2 li a:hover{ color:#CCC; cursor:pointer;}
+.fenge{width:2px; height:38px; line-height:38px; color:#999;}
